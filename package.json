@@ -1,0 +1,32 @@
+{
+  "name": "word-vector-search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/main.ts",
+  "scripts": {
+    "start": "ts-node ./src/main.ts",
+    "test": "ts-node ./src/main.ts",
+    "lint": "eslint --fix ./src/**/*.[tj]s ./src/**/*.[tj]s"
+  },
+  "keywords": [],
+  "author": "Hiroiku Inoue",
+  "license": "MIT",
+  "dependencies": {
+    "@qdrant/js-client-rest": "^1.8.2",
+    "@types/node": "^20.12.7",
+    "dotenv": "^16.4.5",
+    "openai": "^4.33.0",
+    "word2vec": "^1.1.5"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.4.13",
+    "@typescript-eslint/eslint-plugin": "^7.6.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "prettier": "^3.2.5",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.4.4"
+  }
+}
